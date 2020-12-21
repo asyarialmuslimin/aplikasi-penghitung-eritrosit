@@ -1,0 +1,16 @@
+<div class="upload center">
+    <h2>Upload Gambar</h2>
+    <img class="imgthumb hide" src="" alt="ImgThumb">
+    <div class="upload-btn-wrapper">
+        <button class="btn-primary btnbrowse">Pilih Gambar</button>
+        <input id="fileupload" type="file" name="myfile" accept="image/*" onchange="openFile(event)"/>
+    </div>
+    <br>
+    <select id="perbesaran" class="hide">
+        <option value="">Pilih Tingkat Perbesaran</option>
+        <option value="40x">40x</option>
+        <option value="100x">100x</option>
+    </select>
+    <p class="instruction">*Hanya Menerima File Gambar Berformat JPG / PNG</p>
+    <button class="btn-secondary hitungbtn hide" onclick="hitung()">Hitung</button>
+</div>

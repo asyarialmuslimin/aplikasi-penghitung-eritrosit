@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #D43232;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    padding-top: 10px;
+    height: 8vh;
+    align-items: center;
+}
+
+.nav-container {
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    padding-right: 20px;
+}
+
+#logout {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.brand {
+    padding-left: 20px;
+    color: white;
+}
+
+.nav-item {
+    font-weight: 700;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-containercapt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-image {
+    background: #2D9CDB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn-image:hover {
+    background: rgb(23, 111, 161);
+}
+
+.btn-image img {
+    width: 75px;
+}
+
+.btn-image p {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.btn-primary {
+    background: #2F80ED;
+    border: 3px solid #124E9E;
+}
+
+.btn-primary:hover {
+    background: #124E9E;
+}
+
+.btn-secondary {
+    background: #0f8d45;
+    border: 3px solid #0D542B;
+}
+
+.btn-secondary:hover {
+    background: #0D542B;
+}
+
+.btn-danger {
+    background: rgb(228, 55, 55);
+    border: 3px solid #9E0000;
+}
+
+.btn-danger:hover {
+    background: #9E0000;
+}
+
+.instruction {
+    color: #545353;
+    font-size: 14px;
+}
+
+.topnav {
+    width: 100%;
+}
+
+.topnav button {
+    background: white;
+    color: black;
+    border: none;
+    font-size: 18px;
+    padding: 0;
+    width: auto;
+}
+
+.error {
+    background: red;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.imgthumb {
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+}
+
+.imgthumbcapt {
+    width: 320px;
+    height: 240px;
+}
+
+.box {
+    padding: 20px;
+}
+
+.imgthumboutput {
+    width: 320px;
+    height: 240px;
+}
+
+.output-container {
+    padding: 10px;
+    display: flex;
+    background: #F2C94C;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+#nama {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.hcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.count {
+    font-size: 30px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.upload-btn-wrapper {
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: -20px;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.btnbrowse {
+    width: 90%;
+}
+
+.notification {
+    padding: 15px 10px;
+    width: 300px;
+    border-radius: 15px;
+    background: #10ac84;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#touploader {
+    width: 95%;
+}
+
+#perbesaran{
+    width: 95%;
+    padding: 10px;
+}
